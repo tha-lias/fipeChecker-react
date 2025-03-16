@@ -71,7 +71,7 @@ const FipeChecker = () => {
             .catch((err) => console.error(err));
     }, []);
 
-    // Buscar modelos e logo ao selecionar fabricante
+    // Buscar modelos ao selecionar fabricante
     useEffect(() => {
         if (fabricanteSelecionado) {
             apiFipe.get(`/carros/marcas/${idFabricante}/modelos`)
@@ -147,12 +147,7 @@ const FipeChecker = () => {
                         </Select>
                     </FormControl>
 
-                    {logoMarca && (
-                        <Box sx={{ textAlign: "center", marginBottom: 3 }}>
-                            <img src={logoMarca} alt="Logo da marca" style={{ maxWidth: 150 }} />
-                        </Box>
-                    )}
-
+                    
                     <FormControl fullWidth sx={{ marginBottom: 3 }} disabled={!fabricanteSelecionado}>
                         <InputLabel id="modLabel">Modelo</InputLabel>
                         <Select labelId="modLabel" label="Modelo" value={modeloSelecionado} onChange={(e) => setModeloSelecionado(e.target.value)}>
