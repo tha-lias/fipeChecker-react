@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Fipe Checker  
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="https://tha-lias.github.io/fipeChecker-react/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Ver%20esse%20projeto-blue?style=for-the-badge&logo=github&logoColor=white" alt="Ver esse projeto">
+  </a>
+</div>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+O **Fipe Checker** é uma aplicação web que permite consultar valores de veículos diretamente da Tabela FIPE. Desenvolvido com **React** e **Material-UI**, o projeto oferece uma interface intuitiva e responsiva, além de funcionalidades como histórico de consultas e busca de logos das marcas.
 
-### `npm start`
+<p align="center">
+  <img src="https://github.com/tha-lias/fipeChecker-react/assets/screenshot.png" alt="Imagem da tela do projeto"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![My Skills](https://skillicons.dev/icons?i=react,js,materialui,axios,github)](https://skillicons.dev)
 
-### `npm test`
+| Tecnologia | Versão |
+|------------|--------|
+| React      | 18.2.0 |
+| Material-UI| 6.4.7  |
+| Axios      | 1.8.3  |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades Principais
 
-### `npm run build`
+- 🚗 **Consulta de Valores**: Busque o valor de veículos por marca, modelo e ano.
+- 📜 **Histórico de Consultas**: Visualize todas as consultas realizadas, com detalhes como data e valor.
+- 🖼️ **Logos das Marcas**: Logos das marcas são buscados automaticamente para uma experiência visual mais rica.
+- 🌙 **Dark Mode**: Interface com tema escuro para maior conforto visual.
+- 📱 **Responsivo**: Funciona perfeitamente em dispositivos móveis e desktops.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Objetivos Pessoais Alcançados
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto foi desenvolvido como parte do meu **aprendizado contínuo em React** e **integração com APIs**. Durante o desenvolvimento, foquei em:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Componentização**: Estruturei o projeto em componentes reutilizáveis, como o formulário de consulta e o histórico de consultas.
+- **Gerenciamento de Estado**: Utilizei o `useState` e `useEffect` do React para gerenciar o estado da aplicação de forma eficiente.
+- **Integração com APIs**: Conectei a aplicação à API da Tabela FIPE e à API de busca de logos.
+- **Responsividade**: Garanti que a aplicação funcione bem em diferentes tamanhos de tela.
+- **Persistência de Dados**: O histórico de consultas é mantido durante a sessão do usuário.
 
-### `npm run eject`
+Esses objetivos me ajudaram a consolidar meus conhecimentos em React e a desenvolver aplicações mais robustas e escaláveis.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como Executar o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/tha-lias/fipeChecker-react.git

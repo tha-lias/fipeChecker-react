@@ -1,6 +1,6 @@
 
 import './App.css';
-import FipeChecker from './components/FipeChecker.tsx';
+import FipeChecker from "./FipeChecker.tsx";
 
 
 function App() {
