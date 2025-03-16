@@ -26,7 +26,7 @@ const FormularioConsulta = ({
     onBuscarValor,
 }) => {
     return (
-        <Paper elevation={3} sx={{ maxWidth: 500, padding: 3, borderRadius: 2 }}>
+        <Paper elevation={3} sx={{ maxWidth: 500, width: '100%', padding: 3, borderRadius: 2 }}>
             <Typography variant="h4" gutterBottom align="center" fontWeight="bold" style={{ marginBottom: "0" }}>
                 Consulta Tabela FIPE 🚗
             </Typography>
