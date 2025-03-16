@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fipeChecker-react/static/css/main.f855e6bc.css",
+    "main.js": "/fipeChecker-react/static/js/main.81ef7785.js",
+    "static/js/453.8cf1134f.chunk.js": "/fipeChecker-react/static/js/453.8cf1134f.chunk.js",
+    "index.html": "/fipeChecker-react/index.html",
+    "main.f855e6bc.css.map": "/fipeChecker-react/static/css/main.f855e6bc.css.map",
+    "main.81ef7785.js.map": "/fipeChecker-react/static/js/main.81ef7785.js.map",
+    "453.8cf1134f.chunk.js.map": "/fipeChecker-react/static/js/453.8cf1134f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.81ef7785.js"
+  ]
+}
